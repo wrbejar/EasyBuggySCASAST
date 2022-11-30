@@ -3,9 +3,9 @@
     "configMode": "AUTO",
     "configExternalURL": "",    
     "projectToken": "",
-    "baseBranches": [],
-    "enableIaC": "true",
+    "baseBranches": [],    
     "enableSAST": "true",
+    "enableIaC": "true",
     "enableLicenseViolations": "true"    
   },
   "checkRunSettings": {
