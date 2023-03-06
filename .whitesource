@@ -4,11 +4,12 @@
     "configExternalURL": "",    
     "projectToken": "",
     "baseBranches": [],
-    "enableIaC": "true",
-    "enableLicenseViolations": "true"    
+    "enableLicenseViolations": "true",
+    "enableIaC": "true"
   },
    "scanSettingsSAST": {
-    "enableScan": "true"
+    "enableScan": "true",
+    "enableSASTRemediation": "true"
   },  
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
@@ -22,8 +23,8 @@
     "enableRenovate": true,
     "extends": ["github>whitesource/merge-confidence:beta"],
     "workflowRules": {
-    "enabled": true,
+    "enabled": "true",
     "minVulnerabilitySeverity": "LOW"
   }
-  }	  
- }
+  }
+  }
